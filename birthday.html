@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paddington Bear Birthday Wishes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <img src="paddington_birthday.jpg" alt="Paddington Bear Birthday Wishes">
+        <p>Paddington Bear wishes you a very Happy Birthday!</p>
+        <audio id="birthdayAudio" src="happy_birthday_song.mp3" preload="auto"></audio>
+    </div>
+    <script>
+        window.addEventListener('load', function() {
+            var audio = document.getElementById('birthdayAudio');
+            audio.play();
+        });
+    </script>
+</body>
+</html>
